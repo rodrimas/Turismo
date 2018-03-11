@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+    <title>Pagina</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen, projection"/>
+    <link href="css/estilo.css" type="text/css" rel="stylesheet" media="screen, projection"/>
+  </head>
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <div class="navbar-fixed">
+      <nav class="filaheader">
+        <div class="nav-wrapper">
+          <img src="img/logo.png" class="logo left" alt="Turismo"/>
+          <ul class="right">
+            <li><a class="waves-effect waves-light btn right-align estilo_btninicio" href="#">Inicio</a></li>
+            <li><a class="waves-effect waves-light btn right-align estilo_btnestuve" href="#">Destinos</a></li>
+            <li><a class="waves-effect waves-light btn right-align estilo_btnviajes" href="#">Tips</a></li>
+            <li><a class="waves-effect waves-light btn right-align estilo_btnreco"   href="#">Viajes</a></li>
+          </ul>
+          <div class="titulo_tour">Mis fotos</div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="row estilo_cuerpo">
+      <div class="row">
+        <div class="s2 m2 l2 col contenedor-botones hide-on-med-and-down">
+          <div class="row">
+            <a class="btn-medium" href="https://wwww.facebook.com"><img src="img/facebook.png" alt="Facebook"/></a>
+          </div>
+          <div class="row">
+            <a class="btn-medium" href="https://wwww.pinterest.es"><img src="img/pinterest.png" alt="Pinterest"/></a>
+          </div>
+          <div class="row">
+            <a class="btn-medium" href="https://www.tumblr.com/"><img src="img/tumblr.png" alt="Tumblr"/></a>
+          </div>
+          <div class="row">
+            <a class="btn-medium" href="https://twitter.com/"><img src="img/twitter.png" alt="Twitter"/></a>
+          </div>
+          <div class="row">
+            <a class="btn-medium" href="https://wwww.youtube.com"><img src="img/youtube.png" alt="YouTube"/></a>
+          </div>
+        </div>
+        <div class="s12 m12 l10 col contenedor-fotos">
+          <div class="s12 m12 l3 col ">
+            <div class="row">
+              <img src="img/costa.jpg" alt="Playas de Ecuador" class="estilo_costa z-depth-3"/>
+            </div>
+            <div class="row">
+              <img src="img/sierra.jpg" alt="Montañas de Ecuador" class="estilo_sierra z-depth-3"/>
+            </div>
+          </div>
+          <div class="s12 m12 l4 col ">
+            <div class="row">
+              <img src="img/oriente.jpg" alt="Oriente en Ecuador" class="estilo_oriente z-depth-3"/>
+            </div>
+          </div>
+          <div class="s12 m12 l3 col">
+            <div class="row">
+              <img src="img/insular1.jpg" alt="Las Galápagos en Ecuador" class="estilo_insular z-depth-3"/>
+            </div>
+            <div class="row">
+              <img src="img/insular2.jpg" alt="Las Galápagos en Ecuador" class="estilo_insular z-depth-3"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col l8 m12 s12 blue lighten-5 articulo">
+          <h4>Mi primer viaje en la tarabita</h4>
+          <div class="chip">
+            25 Enero 2017
+            <i class="material-icons">date_range</i>
+          </div>
+          <div class="chip">
+            Cascada del velo, Baños de Agua Santa
+            <i class="material-icons">add_location</i>
+          </div>
+          <div class="row estilo_articulo">
+            <img src="img/tarabita.jpg" alt="Tarabita" class="estilo_noticia"/>
+            <p class="estilo_parrafo1">
+              Mi primer viaje en Tarabita lo hice junto a mi esposa en mi luna de miel.
+              Tuve mucho miedo pero al final lo hice y me gustó.  Les invito a uds. amigos a conocer parte de nuestro Ecuador usando estos medios de transporte.
+              La tarabita es una cabina que transporta aproximadamente 5 personas y lleva de un punto a otro.  Normalmente es usado en puntos inaccesibles y usa un sistema de cuerdas con un motor de gran capacidad. Antiguamente, los habitantes de las comunas usaban comúnmente este sistema ya que anteriormente no estaban urbanizadas las ciudades del oriente.
+              De igual forma existen otros forma más extravagantes de generar más adrenalina. En mi siguiente artículo les comentaré de ello.
+            </p>
+            <p class="estilo_parrafo2">
+              Este viaje lo hice el 25 de enero del 2017 en mis vacaciones de mi trabajo donde actualmente estoy.  Hicimos un tour con mi esposa a Baños de Agua Santa y nos llevaron a conocer una ruta de las cascadas donde tuvimos que pasar por la tarabita.  Esa tarabita estaba moderna.  Sin embargo, en otras zonas la tarabiota que usan son más sencillas y aún así la población las usa ya que es el medio diario de entrada y salida a las ciudades.  La mayoría van a las escuelas, trabajos, ó a comercializar sus productos de sembrado.
+            </p>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">person</i>
+                <input type="text" id="txtcomentario" class="validate"/>
+                <label for="nombre">Comentario</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 m12 s12 green lighten-5 articulo">
+          <div class="row center ">
+            <img src="img/perfil_autor.png" alt="Perfil del Autor" class="estilo_autor"/>
+          </div>
+          <div class="row estilo_titulo_autor">
+            <b>Perfil del Autor</b>
+            <hr/>
+            <div class="parrafo_autor1">
+              Hola, en este mi blog te presento una parte de los atractivos turísticos donde uds. pueden encontrar y generar mucha adrenalina.  Me presento ante uds. como Christian Solís un desarrollador web con experiencia en el desarrollo de aplicaciones web y motivado por la creación e innovación de sitios móviles.
+            </div><br>
+            <div class="parrafo_autor2">
+              También les hago la cordial invitación de que sigan mi blog donde pondrémás artículos interesantes donde nacionales y extranjeros puedan ir conociendo las maravillas que tiene mi lindo país.  Una vez que ingreses y conozcas sus maravillas no querrás salir de ellas.  Te invito a conocerlas visitando mis blogs.  Un abrazo.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col l8 m12 s12 yellow lighten-5 articulo">
+          <h4>Haciendo cannoping</h4>
+          <div class="chip">
+            16 Julio 2016
+            <i class="material-icons">date_range</i>
+          </div>
+          <div class="chip">
+            Selva Cajape, Puyo
+            <i class="material-icons">add_location</i>
+          </div>
+          <div class="row estilo_articulo">
+            <img src="img/cannoping.jpg" alt="Cannoping" class="estilo_noticia"/>
+            <div class="estilo_parrafo1">
+              Cannoping es un deporte extremo que demanda de mucha adrenalina ya que este deporte consiste en lanzarse de un punto alto a otro punto bajo sostenidos bajo unas cuerdas usando medidas de seguridad.  Este deporte es muy popular en el Ecuador en muchos lugares turísticos.  Antes de hacer cannoping recibirás una capacitación de 30 minutos donde te enseñarán a usar el casco, las rodilleras, y en especial las cuerdas.  Un momento inolvidable es poder realizar este deporte junto con tu ser querido ya que se te quedará grabado en tu corazón.
+            </div><br>
+            <div class="estilo_parrafo2">
+              La primera vez puede parecerte un poco de miedo pero una vez que lo hagas querrás volver a realizarlo.  Te invito que comiences con cannoping de corta distancia y luego te aventures por algunos de mayor distancia. Ánimo!!!.
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">person</i>
+                <input type="text" id="txtcomentario" class="validate"/>
+                <label for="nombre">Comentario</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 m12 s12 articulo"></div>
+      </div>
+    </div>
+  </body>
+</html>

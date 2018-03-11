@@ -1,0 +1,339 @@
+.filaheader{
+  height: 120px;
+  float: left;
+}
+a{
+  /*position: fixed;*/
+  bottom: 0px;
+  right: 0px;
+}
+div div a{
+  margin-top: -19rem;
+}
+span{
+  position: relative;
+  top: 70px;
+  left: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+}
+.contenedor-botones{
+  margin-top: 8rem;
+}
+.estilo_articulo{
+  margin-top: 1rem;
+}
+
+.estilo_autor{
+  border-radius: 100px;
+}
+.estilo_titulo_autor{
+  text-align: center;
+}
+@media all and (max-width: 1024px) and (min-width:768px) {
+  .logo{
+    margin-left: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  .titulo_tour{
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 26rem;
+    padding-top: 5rem;
+  }
+  .estilo_cuerpo{
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  .estilo_btninicio{
+    top: -12rem;
+    left: 15rem;
+    position: relative !important;
+  }
+  .estilo_btnestuve{
+    top: -12rem;
+    left: 15rem;
+    position: relative !important;
+  }
+  .estilo_btnviajes{
+    top: -8rem;
+    left: -5.3rem;
+    position: relative !important;
+  }
+  .estilo_btnreco{
+    top: -8rem;
+    left: -4.5rem;
+    position: relative !important;
+  }
+  .estilo_noticia{
+    float: left;
+    position: static !important;
+  }
+  .estilo_parrafo1{
+    text-indent: 2em;
+    padding-left: 20rem;
+    text-align: justify;
+  }
+  .estilo_parrafo2{
+    text-align: justify;
+  }
+  .contenedor-fotos{
+    margin-top: 8rem;
+  }
+  .estilo_costa{
+    width: 100%;
+    height: 100%;
+  }
+  .estilo_sierra{
+    width: 100%;
+    height: 100%;
+  }
+  .estilo_insular{
+    width: 100%;
+    height: 100%;
+  }
+  .estilo_oriente{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (min-width:769px) {
+  .logo{
+    margin-left: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  .titulo_tour{
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 26rem;
+    padding-top: 5rem;
+  }
+  .estilo_cuerpo{
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  .estilo_btninicio{
+    top: -12rem;
+    left: 15rem;
+    position: static !important;
+  }
+  .estilo_btnestuve{
+    top: -12rem;
+    left: 15rem;
+    position: static !important;
+  }
+  .estilo_btnviajes{
+    top: -8rem;
+    left: -5.3rem;
+    position: static !important;
+  }
+  .estilo_btnreco{
+    top: -8rem;
+    left: -4.5rem;
+    position: static !important;
+  }
+  .estilo_noticia{
+    float: left;
+    position: static !important;
+  }
+  .estilo_parrafo1{
+    text-indent: 2em;
+    padding-left: 20rem;
+    text-align: justify;
+  }
+  .estilo_parrafo2{
+    text-align: justify;
+  }
+  .contenedor-fotos{
+    margin-top: 8rem;
+  }
+  .estilo_costa{
+    width: 100%;
+    height: 100%;
+  }
+  .estilo_sierra{
+    width: 100%;
+    height: 100%;
+  }
+  .estilo_insular{
+    width: 100%;
+    height: 100%;
+  }
+  .estilo_oriente{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (max-width: 700px) and (min-width:480px) {
+  .logo{
+    margin-left: 0.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    width: 40%;
+  }
+  .titulo_tour{
+    text-indent: -9999px;
+    outline: none;
+  }
+  .estilo_cuerpo{
+    background-image: url('../img/fondo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+  .estilo_btninicio{
+    background: url('../img/main.png') no-repeat center center;
+    text-align: center;
+    text-indent: -9999px;
+    outline: none;
+    display: block;
+    width: 30px;
+    top: -5rem;
+    left: 12rem;
+  }
+  .estilo_btnestuve{
+    background: url('../img/aeropuerto.png') no-repeat center center;
+    text-align: center;
+    text-indent: -9999px;
+    outline: none;
+    display: block;
+    width: 30px;
+    top: -5rem;
+    left: 12rem;
+  }
+  .estilo_btnviajes{
+    background: url('../img/maleta.png') no-repeat center center;
+    text-align: center;
+    text-indent: -9999px;
+    outline: none;
+    display: block;
+    width: 30px;
+    top: -1rem;
+    left: -0.3rem;
+  }
+  .estilo_btnreco{
+    background: url('../img/pasajero-con-equipaje.png') no-repeat center center;
+    text-align: center;
+    text-indent: -9999px;
+    outline: none;
+    display: block;
+    width: 30px;
+    top: -1rem;
+    left: -0.3rem;
+  }
+  .estilo_noticia{
+    clear: left;
+  }
+  .estilo_parrafo1{
+    text-indent: 2em;
+    padding-left: 0px;
+    text-align: justify;
+  }
+  .estilo_parrafo2{
+    text-align: justify;
+  }
+  .articulo{
+    text-align: center;
+  }
+  .contenedor-fotos{
+    margin-top: 8rem;
+    text-align: center;
+  }
+}
+@media all and (max-width: 480px) {
+  .logo{
+    margin-left: 0.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    width: 40%;
+  }
+  .titulo_tour{
+    text-indent: -9999px;
+    outline: none;
+  }
+  .estilo_cuerpo{
+    background-image: url('../img/fondo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+  .estilo_btninicio{
+    background: url('../img/main.png') no-repeat center center;
+    text-align: center;
+    text-indent: -9999px;
+    outline: none;
+    display: block;
+    width: 30px;
+    top: -5rem;
+    left: 12rem;
+  }
+  .estilo_btnestuve{
+    background: url('../img/aeropuerto.png') no-repeat center center;
+    text-align: center;
+    text-indent: -9999px;
+    outline: none;
+    display: block;
+    width: 30px;
+    top: -5rem;
+    left: 12rem;
+  }
+  .estilo_btnviajes{
+    background: url('../img/maleta.png') no-repeat center center;
+    text-align: center;
+    text-indent: -9999px;
+    outline: none;
+    display: block;
+    width: 30px;
+    top: -1rem;
+    left: -0.3rem;
+  }
+  .estilo_btnreco{
+    background: url('../img/pasajero-con-equipaje.png') no-repeat center center;
+    text-align: center;
+    text-indent: -9999px;
+    outline: none;
+    display: block;
+    width: 30px;
+    top: -1rem;
+    left: -0.3rem;
+  }
+  .estilo_noticia{
+    clear: left;
+  }
+  .estilo_parrafo1{
+    text-indent: 2em;
+    padding-left: 0px;
+    text-align: justify;
+  }
+  .estilo_parrafo2{
+    text-align: justify;
+  }
+  .articulo{
+    text-align: center;
+  }
+  .contenedor-fotos{
+    margin-top: 8rem;
+    text-align: center;
+  }
+}
